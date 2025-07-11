@@ -48,6 +48,7 @@ nav{
     font-size:65px ;
     font-weight:bold ;
 }
+/* Main style */
 main{
     max-width: 1140px;
     margin: 0 auto;
@@ -156,6 +157,34 @@ main section{
     font-size: 16;
     color: rgba(179, 179, 179, 1);
 }
+/* Focus style */
+.Focus{
+    text-align: center;
+    padding: 150px;
+    
+}
+.Focus-container{
+    display: block;
+    max-width: 1140px;
+}
+.Focus-container h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin:20px ;
+}
+.Focus-container p{
+    font-size: 16;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    margin:20px ;
+}
+.Focus-container button{
+    margin-bottom:20px ;
+}
+.Focus-container img{
+    border-radius: 48px;
+}
+
 /* GetIn-Touch Style */
 .GetIn-Touch{
     max-width: 1140px;
