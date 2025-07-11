@@ -108,6 +108,49 @@ main section{
     margin-bottom: 0;
     margin-top: 0;
 }
+/* Feedback Style */
+.Feedback h3{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(242, 237, 237, 1);
+    border-radius: 14px;
+    width: 370px;
+    height: 245px;
+    padding: 30px;
+}
+.card form img{
+    border-radius: 100px;
+    margin: 0;
+}
+.card form{
+    display: flex;
+    gap:50px;
+    margin: 0;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+.card-subtitle{
+    font-size: 16px;
+    font-weight: 300;
+}
+.card-name{
+    font-size: 16;
+    color: rgba(117, 117, 117, 1);
+}
+.card-date{
+    font-size: 16;
+    color: rgba(179, 179, 179, 1);
+}
 /* GetIn-Touch Style */
 .GetIn-Touch{
     max-width: 1140px;
@@ -121,7 +164,7 @@ main section{
     align-items: center
 
 }
-form input[type="text"],form input[type="email"]{
+.GetIn-Touch form input[type="text"],.GetIn-Touch form input[type="email"]{
     height: 60px;
     width:450px ;
     border-radius: 10px;
