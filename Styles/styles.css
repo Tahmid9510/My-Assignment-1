@@ -10,6 +10,20 @@
 .text-centre{
      text-align: center;
 }
+.btn-primary{
+    background-color: rgba(78, 71, 255, 1);
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
+.btn-primary:hover{
+    background: rgb(69, 176, 242);
+    transform: scale(1.05);
+    cursor: pointer;
+}
 /* Nav Styles */
 nav{
     display: flex;
@@ -21,15 +35,6 @@ nav{
     font-size:34px ;
     font-weight: bolder;
     color: rgba(78, 71, 255, 1);
-}
-.btn-primary{
-    background-color: rgba(78, 71, 255, 1);
-    font-weight: bold;
-    font-size: 16px;
-    color: white;
-    padding: 12px 36px;
-    border-radius: 10px;
-    border: none;
 }
 /* banner style */
 .banner {
