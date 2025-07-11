@@ -108,3 +108,47 @@ main section{
     margin-bottom: 0;
     margin-top: 0;
 }
+/* GetIn-Touch Style */
+.GetIn-Touch{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+.GetIn-Touch-title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 97px;
+    font-weight: bold;
+    align-items: center
+
+}
+form input[type="text"],form input[type="email"]{
+    height: 60px;
+    width:450px ;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+form textarea{
+    height: 120px;
+    width:450px ;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+form label{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.Get-in-btn{
+     width:495px ;
+     height:60px;
+}
+.GetIn-Touch-RightSide input::placeholder,
+.GetIn-Touch-RightSide textarea::placeholder {
+  font-size: 20px;
+}
